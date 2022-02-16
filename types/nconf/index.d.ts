@@ -72,6 +72,7 @@ export interface IFileOptions {
     format?: IFormat | undefined;
     json_spacing?: number | undefined;
     secure?: ISecureFileOptions | undefined;
+    logicalSeparator?: string | undefined;
 }
 
 export interface ICallbackFunction {
